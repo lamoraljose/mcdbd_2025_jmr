@@ -47,6 +47,6 @@ TELEFONO: int
 
 ## Referencias
 
-[^1]: AWS, 2025. *¿Qué es una base de datos?*, Recuperado de https://aws.amazon.com/es/what-is/database/
-[^2]: IBM, 2025. *What is a database management system?*,Recuperado de https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-what-is-database-management-system
-[^3]: 
+[^1]: AWS, 2025. **¿Qué es una base de datos?**, Recuperado de https://aws.amazon.com/es/what-is/database/
+[^2]: IBM, 2025. **What is a database management system?**,Recuperado de https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-what-is-database-management-system
+[^3]: Oracle, 2025. **MySQL: qué es y cómo se usa**,Recuperado de https://www.oracle.com/mx/mysql/what-is-mysql/
