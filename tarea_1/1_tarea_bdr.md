@@ -26,23 +26,23 @@ Queremos saber en tiempo real, que usuarios registrados en el programa de lealta
 
 ## Tipos de Datos de los Atributos
 ### **Tabla Venta**
-CR_PLAZA: text
-CR_TIENDA: text
-ID_TICKET: text
-FECHA: data
-HORA: time
-VENTA: float
-LEALTAD_IDENTIFICATION: boolean
-ID_LEALTAD: text
+- CR_PLAZA: text
+- CR_TIENDA: text
+- ID_TICKET: text
+- FECHA: data
+- HORA: time
+- VENTA: float
+- LEALTAD_IDENTIFICATION: boolean
+- ID_LEALTAD: text
 
 ### **Tabla Información Carrier**
-CEL_NUMBER: int
-CARRIER: text
-DATE: date
+- CEL_NUMBER: int
+- CARRIER: text
+- DATE: date
 
 ### **Tabla Programa de Lealtad**
-ID_LEALTAD: text
-TELEFONO: int
+- ID_LEALTAD: text
+- TELEFONO: int
 
 
 ## Referencias
