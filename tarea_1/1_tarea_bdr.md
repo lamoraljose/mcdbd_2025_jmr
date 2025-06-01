@@ -19,9 +19,30 @@ MySQL es el sistema de gestión de bases de datos de código abierto más popula
 Elegí este SGBD ya que es gratuito, y en el pasado he tenido que utilizar esta herramiento para hacer consultas, entonces creo que es la mejor elección que puedo hacer para realizar mi proyecto y cursar la materia, tambien entiendo que es de los softwares más populares en la industria laboral.
 
 
+## Descripción Base de Datos para el Proyecto
 
+Se requiere saber si un usuario que compra en una tienda de conveniencia popular en México, pertenece o no a determinada marca (carrier). Para esto tenemos un directorio que nos da la información de todos los numeros celulares vigentes junto con su respectivo proveedor de servicio.
+Queremos saber en tiempo real, que usuarios registrados en el programa de lealtad que realizan compras en la tienda pertenecen al carrier "X". Tenemos tres tablas principales, la tabla de VENTA la Tabla de INFORMACION DEL CARRIER y por último la tabla con la información del usuario inscrito en el programa de lealtad.
 
+## Tipos de Datos de los Atributos
+### **Tabla Venta**
+CR_PLAZA: text
+CR_TIENDA: text
+ID_TICKET: text
+FECHA: data
+HORA: time
+VENTA: float
+LEALTAD_IDENTIFICATION: boolean
+ID_LEALTAD: text
 
+### **Tabla Información Carrier**
+CEL_NUMBER: int
+CARRIER: text
+DATE: date
+
+### **Tabla Programa de Lealtad**
+ID_LEALTAD: text
+TELEFONO: int
 
 
 ## Referencias
