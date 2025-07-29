@@ -68,7 +68,7 @@ insert into Venta (ID_LEALTAD, ID_TICKET, CR_TIENDA, FECHA, VENTA) values (50, 4
 
 
 ```SQL
-
+create table Informacion_Carrier (
 CEL_NUMBER INT,
 	CARRIER VARCHAR(50),
 	DATE DATE
@@ -132,7 +132,7 @@ insert into Informacion_Carrier (CEL_NUMBER, CARRIER, DATE) values (74, 'jelsip1
 
 ```SQL
 
-reate table Programa_De_Lealtad (
+create table Programa_De_Lealtad (
 	ID_LEALTAD INT,
 	TELEFONO INT
 );
